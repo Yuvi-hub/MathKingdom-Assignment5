@@ -1,0 +1,43 @@
+:: StoryTitle
+Math Kingdom: The Number Gate
+
+:: StoryData
+{"ifid":"B62B6810-4D10-4AF2-A815-AF74B70A1255","format":"Harlowe","format-version":"3.3.9","start":"Arrival"}
+
+:: Arrival
+The Number Storm has sealed the gates of Math Kingdom. You are the Courier, carrying a map of the broken paths.
+
+A voice calls from the gatehouse. What do you do?
+
+[[Speak to the Gatekeeper->Gatekeeper]]
+[[Inspect the sealed gate->Gate]]
+
+:: Gatekeeper
+"Three numbers lie beyond the platforms," says the Gatekeeper. "Their sum must be exactly ten. Reach the green portal before the sands run out."
+
+[[Ask about the storm->Storm]]
+[[Accept the challenge->Ready]]
+
+:: Gate
+An inscription glows: 2 + 3 + 5 = ?
+
+[[Answer ten->Ready]]
+[[Search for clues->Gatekeeper]]
+
+:: Storm
+"The storm feeds on doubt," the Gatekeeper explains. "Plan your jumps, watch the clock, and trust your arithmetic."
+
+[[Begin the journey->Ready]]
+
+:: Ready
+You step toward the first platform. Three golden numbers wait ahead, and the green gate flickers in the distance.
+
+Your objective: collect 2, 3, and 5, then reach the exit with a sum of 10.
+
+[[Enter Math Kingdom->Ending]]
+[[Ask for the instructions again->Gatekeeper]]
+
+:: Ending
+The adventure begins! Return to the Unity game to play the platforming level.
+
+[[Replay the introduction->Arrival]]
